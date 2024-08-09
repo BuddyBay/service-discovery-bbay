@@ -1,0 +1,13 @@
+spring:
+application:
+  name: SERVICE-DISCOVERY
+
+server:
+  port: 8762
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
